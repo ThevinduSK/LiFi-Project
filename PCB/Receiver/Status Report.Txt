@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ir project receiver.PrjPcb]
+   Generated File[Bill of Materials-ir project receiver.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:49:39 PM On 7/15/2026

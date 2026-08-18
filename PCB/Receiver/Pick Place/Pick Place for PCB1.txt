@@ -1,0 +1,32 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\ir project receiver\Project Outputs for ir project receiver\Pick Place\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/07/26
+Time:       22:49
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment         Layer    Footprint                Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                
+U2         DM-OLED096-636  TopLayer MODULE_DM-OLED096-636    3135.039      2470.472      0        "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"                                                            
+U1         ESP32-DEVKIT-V1 TopLayer MODULE_ESP32_DEVKIT_V1   4921.260      3479.332      270      "Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz"      
+R8         10k             TopLayer resistor                 4063.819      2324.801      90       Resistor                                                                                                                   
+R7         1K              TopLayer resistor                 4256.614      2324.801      90       Resistor                                                                                                                   
+R6         "220 ohm "      TopLayer resistor                 4449.409      2324.801      90       Resistor                                                                                                                   
+R5         10k             TopLayer resistor                 4642.204      2324.801      90       Resistor                                                                                                                   
+R4         10k             TopLayer resistor                 4835.000      2324.801      90       Resistor                                                                                                                   
+R3         "20k "          TopLayer resistor                 5027.795      2324.801      90       Resistor                                                                                                                   
+R2         "10k "          TopLayer resistor                 5220.590      2324.801      90       Resistor                                                                                                                   
+R1         220K            TopLayer resistor                 3446.850      3562.992      180      Resistor                                                                                                                   
+Q1         2N2222A         TopLayer 2N2907A                  2957.165      3833.858      0        "Transistor BJT NPN"                                                                                                       
+J1         282834-2        TopLayer TE_282834-2              5957.677      2414.567      270      "Terminal Block Connector PCB 2.54 mm 30-16 AWG Green 10 A 150 V M1.6"                                                     
+IC1        LM358P          TopLayer DIP794W53P254L959H508Q8N 3438.386      3241.339      270      "Integrated Circuit"                                                                                                       
+D2         IR_LED          TopLayer LEDRD254W57D500H1070     3824.803      2083.661      0        "LED, 5MM, ORANGE; LED / Lamp Size: 5mm / T-1 3/4; LED Colour: Orange; Typ Luminous Intensity: 4.3mcd; Viewing Angle: ..." 
+D1         BPW34           TopLayer BPW34                    3460.630      3821.850      180      Diode                                                                                                                      
+C4         100nf           TopLayer C320C                    5537.205      2631.890      180      ""                                                                                                                         
+C3         10uf            TopLayer CAPPRD350W65D800H1300    5553.150      2252.953      0        "Capacitor Polarised"                                                                                                      
+C2         100nf           TopLayer C320C                    2942.913      3164.567      270      ""                                                                                                                         
+C1         10pf            TopLayer C320C                    2942.913      3495.866      90       ""                                                                                                                         

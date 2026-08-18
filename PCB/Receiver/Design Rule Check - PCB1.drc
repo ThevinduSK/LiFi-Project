@@ -1,0 +1,73 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\ir project receiver\PCB1.PcbDoc
+Date     : 7/15/2026
+Time     : 4:30:52 AM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: +5V_L01_P000 In net +5V On Top Layer
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Arc (2460.63mil,1870.079mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (2460.63mil,4232.283mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (6003.937mil,1870.079mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (6003.937mil,4232.283mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (2263.78mil,1870.079mil)(2263.78mil,4232.283mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (2460.63mil,1673.228mil)(6003.937mil,1673.228mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (2460.63mil,4429.134mil)(6003.937mil,4429.134mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (6200.787mil,1870.079mil)(6200.787mil,4232.283mil) on Top Layer Dead Copper - Net Not Assigned.
+Rule Violations :8
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (+5V_L01_P000) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=8mil) (Max=30mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (125.984mil > 100mil) Pad Free-2(2460.63mil,1870.079mil) on Multi-Layer Actual Hole Size = 125.984mil
+   Violation between Hole Size Constraint: (125.984mil > 100mil) Pad Free-2(2460.63mil,4232.283mil) on Multi-Layer Actual Hole Size = 125.984mil
+   Violation between Hole Size Constraint: (125.984mil > 100mil) Pad Free-2(6003.937mil,1870.079mil) on Multi-Layer Actual Hole Size = 125.984mil
+   Violation between Hole Size Constraint: (125.984mil > 100mil) Pad Free-2(6003.937mil,4232.283mil) on Multi-Layer Actual Hole Size = 125.984mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad U1-(3997.047mil,2997.836mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad U1-(3997.047mil,3962.797mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad U1-(5845.472mil,2997.836mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad U1-(5845.472mil,3962.797mil) on Multi-Layer Actual Hole Size = 118.11mil
+Rule Violations :8
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (4.378mil < 10mil) Between Text "J1" (5728.714mil,2252.884mil) on Top Overlay And Track (5561.613mil,2326.179mil)(5761.613mil,2326.179mil) on Top Overlay Silk Text to Silk Clearance [4.378mil]
+   Violation between Silk To Silk Clearance Constraint: (4.378mil < 10mil) Between Text "J1" (5728.714mil,2252.884mil) on Top Overlay And Track (5761.613mil,2326.179mil)(5761.613mil,2451.376mil) on Top Overlay Silk Text to Silk Clearance [4.378mil]
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 19
+Waived Violations : 0
+Time Elapsed        : 00:00:00
